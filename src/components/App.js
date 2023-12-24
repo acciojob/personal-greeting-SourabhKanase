@@ -6,7 +6,7 @@ const App = () => {
   let [value,setvalue]=useState("");
   return (
     <div>
-        <p>Enter your name:</p>
+        <h1>Enter your name:</h1>
         <input type="text" onChange={(e)=>{setvalue(e.target.value)}}/>
 
         {
